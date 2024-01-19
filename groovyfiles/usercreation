@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("user creation") {
             steps {
-                sh "sudo useradd Devops"
+                sh "sudo useradd Devops-01"
             }
         }
         stage ("Verfiy") {
